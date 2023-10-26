@@ -25,3 +25,10 @@ All tensors are equal!
 ```
 
 Which means the output tensors of the flash attention demo matches the non-flash output tensors.
+
+## Credits
+
+- Pseudocode from flash attention v1 + v2,
+[FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+[FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691)
+- [Julia implementation of dense flash attention](https://github.com/nikopj/FlashAttention.jl/blob/main/src/dense.jl)
